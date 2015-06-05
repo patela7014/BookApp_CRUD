@@ -1,0 +1,1 @@
+An iOS application which shows the use of core data. User can see list of all books and its details. User can add the book, library and its due date. User can update it if required. Just by sliding the row, the book can be deleted.
