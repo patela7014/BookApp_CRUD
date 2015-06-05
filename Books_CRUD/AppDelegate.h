@@ -1,13 +1,13 @@
 //
 //  AppDelegate.h
-//  Books_CRUD
+//  Assignment4
 //
-//  Created by Ankur Patel on 5/31/15.
-//  Copyright (c) 2015 Ankur Patel. All rights reserved.
+//  Created by  on 11/23/14.
+//  Copyright (c) 2014 MohammedAbdulMoid. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import <CoreData/CoreData.h>
+#import "TableViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -17,9 +17,11 @@
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
+@property(nonatomic, retain) UINavigationController *nav;
+
+@property (retain, nonatomic) TableViewController *tablevc;
+
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 
-
 @end
-

@@ -11,10 +11,20 @@
 		71A098EA1B1AE51E000C20DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A098E91B1AE51E000C20DC /* AppDelegate.m */; };
 		71A098ED1B1AE51E000C20DC /* Books_CRUD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71A098EB1B1AE51E000C20DC /* Books_CRUD.xcdatamodeld */; };
 		71A098F01B1AE51E000C20DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A098EF1B1AE51E000C20DC /* ViewController.m */; };
-		71A098F31B1AE51E000C20DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A098F11B1AE51E000C20DC /* Main.storyboard */; };
 		71A098F51B1AE51E000C20DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A098F41B1AE51E000C20DC /* Images.xcassets */; };
 		71A098F81B1AE51E000C20DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A098F61B1AE51E000C20DC /* LaunchScreen.xib */; };
 		71A099041B1AE51F000C20DC /* Books_CRUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A099031B1AE51F000C20DC /* Books_CRUDTests.m */; };
+		71A099281B1AE5CB000C20DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A0990E1B1AE5CB000C20DC /* LaunchScreen.xib */; };
+		71A099291B1AE5CB000C20DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A099101B1AE5CB000C20DC /* Main.storyboard */; };
+		71A0992A1B1AE5CB000C20DC /* Books_CRUD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71A099121B1AE5CB000C20DC /* Books_CRUD.xcdatamodeld */; };
+		71A0992B1B1AE5CB000C20DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71A099151B1AE5CB000C20DC /* InfoPlist.strings */; };
+		71A0992E1B1AE5CB000C20DC /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A099191B1AE5CB000C20DC /* TableViewController.xib */; };
+		71A0992F1B1AE5CB000C20DC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A0991A1B1AE5CB000C20DC /* DetailViewController.m */; };
+		71A099301B1AE5CB000C20DC /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A0991B1B1AE5CB000C20DC /* DetailViewController.xib */; };
+		71A099311B1AE5CB000C20DC /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A0991D1B1AE5CB000C20DC /* TableViewController.m */; };
+		71A099321B1AE5CB000C20DC /* MyBooks.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A0991F1B1AE5CB000C20DC /* MyBooks.m */; };
+		71A099331B1AE5CB000C20DC /* AddBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A099221B1AE5CB000C20DC /* AddBookViewController.m */; };
+		71A099351B1AE5CB000C20DC /* AddBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A099251B1AE5CB000C20DC /* AddBookViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +46,26 @@
 		71A098EC1B1AE51E000C20DC /* Books_CRUD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Books_CRUD.xcdatamodel; sourceTree = "<group>"; };
 		71A098EE1B1AE51E000C20DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		71A098EF1B1AE51E000C20DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		71A098F21B1AE51E000C20DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71A098F41B1AE51E000C20DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		71A098F71B1AE51E000C20DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		71A098FD1B1AE51F000C20DC /* Books_CRUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Books_CRUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A099021B1AE51F000C20DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71A099031B1AE51F000C20DC /* Books_CRUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Books_CRUDTests.m; sourceTree = "<group>"; };
+		71A0990F1B1AE5CB000C20DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		71A099111B1AE5CB000C20DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		71A099131B1AE5CB000C20DC /* Books_CRUD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Books_CRUD.xcdatamodel; sourceTree = "<group>"; };
+		71A099161B1AE5CB000C20DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		71A099191B1AE5CB000C20DC /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		71A0991A1B1AE5CB000C20DC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		71A0991B1B1AE5CB000C20DC /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		71A0991C1B1AE5CB000C20DC /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		71A0991D1B1AE5CB000C20DC /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		71A0991E1B1AE5CB000C20DC /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		71A0991F1B1AE5CB000C20DC /* MyBooks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBooks.m; sourceTree = "<group>"; };
+		71A099201B1AE5CB000C20DC /* MyBooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBooks.h; sourceTree = "<group>"; };
+		71A099211B1AE5CB000C20DC /* AddBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBookViewController.h; sourceTree = "<group>"; };
+		71A099221B1AE5CB000C20DC /* AddBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBookViewController.m; sourceTree = "<group>"; };
+		71A099251B1AE5CB000C20DC /* AddBookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddBookViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +107,24 @@
 		71A098E31B1AE51E000C20DC /* Books_CRUD */ = {
 			isa = PBXGroup;
 			children = (
+				71A0990D1B1AE5CB000C20DC /* Base.lproj */,
+				71A099121B1AE5CB000C20DC /* Books_CRUD.xcdatamodeld */,
+				71A099141B1AE5CB000C20DC /* en.lproj */,
+				71A099191B1AE5CB000C20DC /* TableViewController.xib */,
+				71A0991A1B1AE5CB000C20DC /* DetailViewController.m */,
+				71A0991B1B1AE5CB000C20DC /* DetailViewController.xib */,
+				71A0991C1B1AE5CB000C20DC /* DetailViewController.h */,
+				71A0991D1B1AE5CB000C20DC /* TableViewController.m */,
+				71A0991E1B1AE5CB000C20DC /* TableViewController.h */,
+				71A0991F1B1AE5CB000C20DC /* MyBooks.m */,
+				71A099201B1AE5CB000C20DC /* MyBooks.h */,
+				71A099211B1AE5CB000C20DC /* AddBookViewController.h */,
+				71A099221B1AE5CB000C20DC /* AddBookViewController.m */,
+				71A099251B1AE5CB000C20DC /* AddBookViewController.xib */,
 				71A098E81B1AE51E000C20DC /* AppDelegate.h */,
 				71A098E91B1AE51E000C20DC /* AppDelegate.m */,
 				71A098EE1B1AE51E000C20DC /* ViewController.h */,
 				71A098EF1B1AE51E000C20DC /* ViewController.m */,
-				71A098F11B1AE51E000C20DC /* Main.storyboard */,
 				71A098F41B1AE51E000C20DC /* Images.xcassets */,
 				71A098F61B1AE51E000C20DC /* LaunchScreen.xib */,
 				71A098EB1B1AE51E000C20DC /* Books_CRUD.xcdatamodeld */,
@@ -120,6 +157,23 @@
 				71A099021B1AE51F000C20DC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71A0990D1B1AE5CB000C20DC /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				71A0990E1B1AE5CB000C20DC /* LaunchScreen.xib */,
+				71A099101B1AE5CB000C20DC /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		71A099141B1AE5CB000C20DC /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				71A099151B1AE5CB000C20DC /* InfoPlist.strings */,
+			);
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,8 +256,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71A098F31B1AE51E000C20DC /* Main.storyboard in Resources */,
+				71A099281B1AE5CB000C20DC /* LaunchScreen.xib in Resources */,
+				71A0992B1B1AE5CB000C20DC /* InfoPlist.strings in Resources */,
+				71A099291B1AE5CB000C20DC /* Main.storyboard in Resources */,
 				71A098F81B1AE51E000C20DC /* LaunchScreen.xib in Resources */,
+				71A0992E1B1AE5CB000C20DC /* TableViewController.xib in Resources */,
+				71A099351B1AE5CB000C20DC /* AddBookViewController.xib in Resources */,
+				71A099301B1AE5CB000C20DC /* DetailViewController.xib in Resources */,
 				71A098F51B1AE51E000C20DC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,10 +281,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A099321B1AE5CB000C20DC /* MyBooks.m in Sources */,
 				71A098ED1B1AE51E000C20DC /* Books_CRUD.xcdatamodeld in Sources */,
 				71A098EA1B1AE51E000C20DC /* AppDelegate.m in Sources */,
+				71A0992A1B1AE5CB000C20DC /* Books_CRUD.xcdatamodeld in Sources */,
 				71A098F01B1AE51E000C20DC /* ViewController.m in Sources */,
 				71A098E71B1AE51E000C20DC /* main.m in Sources */,
+				71A099311B1AE5CB000C20DC /* TableViewController.m in Sources */,
+				71A0992F1B1AE5CB000C20DC /* DetailViewController.m in Sources */,
+				71A099331B1AE5CB000C20DC /* AddBookViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,20 +312,36 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		71A098F11B1AE51E000C20DC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71A098F21B1AE51E000C20DC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		71A098F61B1AE51E000C20DC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				71A098F71B1AE51E000C20DC /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		71A0990E1B1AE5CB000C20DC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A0990F1B1AE5CB000C20DC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		71A099101B1AE5CB000C20DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A099111B1AE5CB000C20DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71A099151B1AE5CB000C20DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A099161B1AE5CB000C20DC /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -274,7 +354,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -315,7 +395,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -416,6 +496,7 @@
 				71A099091B1AE51F000C20DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71A0990A1B1AE51F000C20DC /* Build configuration list for PBXNativeTarget "Books_CRUDTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +505,7 @@
 				71A0990C1B1AE51F000C20DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -434,6 +516,16 @@
 				71A098EC1B1AE51E000C20DC /* Books_CRUD.xcdatamodel */,
 			);
 			currentVersion = 71A098EC1B1AE51E000C20DC /* Books_CRUD.xcdatamodel */;
+			path = Books_CRUD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		71A099121B1AE5CB000C20DC /* Books_CRUD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				71A099131B1AE5CB000C20DC /* Books_CRUD.xcdatamodel */,
+			);
+			currentVersion = 71A099131B1AE5CB000C20DC /* Books_CRUD.xcdatamodel */;
 			path = Books_CRUD.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
